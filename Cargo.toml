@@ -2,6 +2,10 @@
 name = "logos-ropey"
 version = "0.0.1"
 edition = "2021"
+license = "MIT"
+authors = ["Ken Micklas"]
+repository = "https://github.com/kmicklas/logos-ropey"
+description = "A newtype wrapper for using Ropey ropes with Logos lexers"
 
 [dependencies]
 logos = { git = "https://github.com/kmicklas/logos.git", branch = "source-fixes" }
