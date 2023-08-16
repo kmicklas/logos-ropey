@@ -9,4 +9,5 @@ description = "A newtype wrapper for using Ropey ropes with Logos lexers"
 
 [dependencies]
 logos = { git = "https://github.com/kmicklas/logos.git", branch = "source-fixes" }
+ref-cast = "1.0.19"
 ropey = "1.6.0"

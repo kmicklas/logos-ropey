@@ -15,7 +15,7 @@ use std::ops::Range;
 ///     Token,
 /// }
 /// ```
-#[derive(Copy, Clone, PartialEq, Eq, PartialOrd, Ord, Debug)]
+#[derive(ref_cast::RefCast, Copy, Clone, PartialEq, Eq, PartialOrd, Ord, Debug)]
 #[repr(transparent)]
 pub struct RopeSliceSource<'s>(pub ropey::RopeSlice<'s>);
 
